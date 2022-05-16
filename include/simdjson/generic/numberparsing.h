@@ -1076,7 +1076,6 @@ simdjson_unused simdjson_really_inline simdjson_result<ondemand::number_type> ge
     }
     return ondemand::number_type::signed_integer;
   }
-  // Hopefully, we have 'e' or 'E' or '.'.
   return ondemand::number_type::floating_point_number;
 }
 
