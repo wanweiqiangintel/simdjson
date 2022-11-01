@@ -160,6 +160,7 @@ SIMDJSON_POP_DISABLE_WARNINGS
 //
 #include "generic/stage2/stringparsing.h"
 #include "generic/stage2/tape_builder.h"
+#include<stdio.h>
 
 //
 // Implementation-specific overrides
@@ -182,6 +183,9 @@ simdjson_warn_unused error_code implementation::minify(const uint8_t *buf, size_
 }
 
 simdjson_warn_unused error_code dom_parser_implementation::stage1(const uint8_t *_buf, size_t _len, stage1_mode streaming) noexcept {
+  FILE* fp=fopen("simdjson.txt","a+");
+  fprintf(fp,"this AVX512\n");
+  fclose(fp);
   this->buf = _buf;
   this->len = _len;
   return icelake::stage1::json_structural_indexer::index<128>(_buf, _len, *this, streaming);
