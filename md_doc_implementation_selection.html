@@ -104,7 +104,6 @@ Overview</h1>
 <p>The simdjson library takes advantage of SIMD instruction sets such as NEON, SSE and AVX to achieve much of its speed. Because these instruction sets work differently, simdjson has to compile a different version of the JSON parser for different CPU architectures, often with different algorithms to take better advantage of a given CPU!</p>
 <p>The current implementations are:</p><ul>
 <li>icelake: AVX-512F, AVX-512VBMI, etc.</li>
-<li>skylake: AVX-512F, etc.</li>
 <li>haswell: AVX2 (2013 Intel Haswell or later)</li>
 <li>westmere: SSE4.2 (2010 Westmere or later).</li>
 <li>arm64: 64-bit ARMv8-A NEON</li>
@@ -112,7 +111,7 @@ Overview</h1>
 <li>fallback: A generic implementation that runs on any 64-bit processor.</li>
 </ul>
 <p>In many cases, you don't know where your compiled binary is going to run, so simdjson automatically compiles <em>all</em> the implementations into the executable. On Intel, it will include 3 implementations (haswell, westmere and fallback), on ARM it will include 2 (arm64 and fallback), and on PPC it will include 2 (ppc64 and fallback).</p>
-<p>If you know more about where you're going to run and want to save the space, you can disable any of these implementations at compile time with <code>-DSIMDJSON_IMPLEMENTATION_X=0</code> (where X is ICELAKE, SKYLAKE, HASWELL, WESTMERE, ARM64, PPC64 and FALLBACK).</p>
+<p>If you know more about where you're going to run and want to save the space, you can disable any of these implementations at compile time with <code>-DSIMDJSON_IMPLEMENTATION_X=0</code> (where X is ICELAKE, HASWELL, WESTMERE, ARM64, PPC64 and FALLBACK).</p>
 <p>The simdjson library automatically sets header flags for each implementation as it compiles; there is no need to set architecture-specific flags yourself (e.g., <code>-mavx2</code>, <code>/AVX2</code> or <code>-march=haswell</code>), and it may even break runtime dispatch and your binaries will fail to run on older processors. <em>Note:</em> for POWER9 processors make sure you compile it with <code>-mcpu=power9</code> and <code>-mtune=power9</code> to get maximum performance.</p>
 <h1><a class="anchor" id="autotoc_md43"></a>
 Runtime CPU Detection</h1>
