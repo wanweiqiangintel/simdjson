@@ -183,12 +183,12 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"arm64_8h_source.html",
-"classsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object__iterator.html#aabb56f8e0f6199b91f500be3735091b0",
-"classsimdjson_1_1dom_1_1parser.html",
-"generic_2dom__parser__implementation_8h_source.html",
-"simdjson_8h_source.html",
-"structsimdjson_1_1simdjson__result_3_01_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object_01_4.html#ad88110fe0070d8e28e680cbdbff198cf"
+"",
+"classsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object.html#ae3d80f8e7f31c319fe6ee09c0860df83",
+"classsimdjson_1_1dom_1_1object_1_1iterator.html#a688f6c7f451602bb3385a93252c0828a",
+"logger-inl_8h.html#a7577e5a0dcaf23edf36d162959680a7c",
+"padded__string-inl_8h_source.html",
+"structsimdjson_1_1simdjson__result_3_01_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object_01_4.html#a86945d1c1c36bc51dd8a18e8ee9c0c18"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
