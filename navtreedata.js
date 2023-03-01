@@ -182,12 +182,12 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object.html#aef6872e07743217fe2e2abe790a21d4c",
-"classsimdjson_1_1dom_1_1object_1_1iterator.html#a9f49fe89534f63d3d2543d5d4bad3180",
-"logger-inl_8h.html#ab8b9add577d4aba4fc244fa5a5bcb219",
-"parsedjson__iterator-inl_8h_source.html",
-"structsimdjson_1_1simdjson__result_3_01_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object_01_4.html#afd9f79244804cad8a3c12053c2e5da6f"
+"annotated.html",
+"classsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object__iterator.html#a4bda7b73aebddb2b5a66670d70110bc5",
+"classsimdjson_1_1dom_1_1object_1_1iterator.html#ac82e68be1f179df92423d879114fbf55",
+"logger-inl_8h_source.html",
+"ppc64_2bitmanipulation_8h_source.html",
+"structsimdjson_1_1simdjson__result_3_01_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand_1_1object__iterator_01_4.html#aaa161d4006fe118c8a2125f861ac0f51"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
