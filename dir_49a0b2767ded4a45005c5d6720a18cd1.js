@@ -9,6 +9,7 @@ var dir_49a0b2767ded4a45005c5d6720a18cd1 =
     [ "internal", "dir_0fee190c3bc9a7d22e6d44901a62fa54.html", "dir_0fee190c3bc9a7d22e6d44901a62fa54" ],
     [ "nonstd", "dir_aff943445258981e0d80c1f13c0bf97f.html", "dir_aff943445258981e0d80c1f13c0bf97f" ],
     [ "ppc64", "dir_9b01d0736ef91c92ca1a5074971144b1.html", "dir_9b01d0736ef91c92ca1a5074971144b1" ],
+    [ "skylake", "dir_c7d3c0190d404e55645a068032897731.html", "dir_c7d3c0190d404e55645a068032897731" ],
     [ "westmere", "dir_0d145e48adcb2584d6aad0aa1d711d9e.html", "dir_0d145e48adcb2584d6aad0aa1d711d9e" ],
     [ "arm64.h", "arm64_8h_source.html", null ],
     [ "base.h", "base_8h_source.html", null ],
@@ -34,5 +35,6 @@ var dir_49a0b2767ded4a45005c5d6720a18cd1 =
     [ "ppc64.h", "ppc64_8h_source.html", null ],
     [ "simdjson.h", "simdjson_8h.html", null ],
     [ "simdjson_version.h", "simdjson__version_8h_source.html", null ],
+    [ "skylake.h", "skylake_8h_source.html", null ],
     [ "westmere.h", "westmere_8h_source.html", null ]
 ];
